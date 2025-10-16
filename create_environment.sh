@@ -4,7 +4,7 @@
 echo "Enter your name:"
 read username
 
-# Create main directory with username
+# Create main directory with username of the user
 main_dir="submission_reminder_${username}"
 mkdir -p "$main_dir"
 
